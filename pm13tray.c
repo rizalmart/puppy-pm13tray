@@ -36,7 +36,7 @@ static AppIndicator *create_tray_icon() {
 
     tray_icon = app_indicator_new(
         "pupmode13-indicator",
-        "floppy",  // XDG icon name
+        "media-floppy",  // XDG icon name
         APP_INDICATOR_CATEGORY_APPLICATION_STATUS
     );
 
