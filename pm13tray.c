@@ -131,7 +131,7 @@ void tray_icon_on_click(GtkMenuItem *item, gpointer user_data) {
     const char *action = (const char *)user_data;
 
     if (g_strcmp0(action, "save") == 0) {
-        system("eventmanager save-session &");
+        system("save2flash &");
     } else if (g_strcmp0(action, "settings") == 0) {
         system("eventmanager pm13 &");
     }
